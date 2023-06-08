@@ -21,6 +21,6 @@ jobs:
         aws-region: us-east-1
     
     - name: Sync to S3
-      run: aws s3 sync . s3://aws-s3-my-bucket-shu-website-2023
+      run: aws s3 sync . s3://static-website-hosting2
     
 
